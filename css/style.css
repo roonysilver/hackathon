@@ -1,0 +1,117 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #373b44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373b44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373b44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar li a {
+    color: azure !important;
+}
+
+.navbar li a:hover {
+    color: black !important;
+}
+
+.navbar-brand i {
+    color: red;
+    font-size: 2rem;
+}
+
+.navbar-brand #text-1 {
+    color: black;
+}
+
+.navbar-brand #text-2 {
+    color: #fd837b;
+}
+
+.navbar-brand #text-3 {
+    color: #cc5500;
+}
+
+.navbar-brand #text-4 {
+    color: #442222;
+}
+
+
+/* carousel slide */
+
+.carousel-inner img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 5%;
+}
+
+.carousel-caption h1 {
+    text-align: center;
+    font-size: 400%;
+    /* text-transform: uppercase; */
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+.carousel-caption h4 {
+    text-align: center;
+    font-size: 150%;
+    /* text-transform: uppercase; */
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+
+/* abc */
+
+.container {}
+
+
+/* Media-Query */
+
+@media (max-width: 992px) {
+    .carousel-caption {
+        top: 5%;
+    }
+    .carousel-caption h1 {
+        font-size: 150%;
+    }
+    .carousel-caption .btn {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 5%;
+    }
+    .carousel-caption h1 {
+        font-size: 150%;
+    }
+    .carousel-caption .btn {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 5%;
+    }
+    .carousel-caption h1 {
+        font-size: 100%;
+    }
+    .carousel-caption .btn {
+        font-size: 50%;
+    }
+}
